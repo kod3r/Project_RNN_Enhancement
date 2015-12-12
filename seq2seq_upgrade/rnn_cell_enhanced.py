@@ -4,20 +4,18 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import tensorflow.python.platform
-
 
 import math
 
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
+
+
+# from Seq2Seq_Upgrade_TensorFlow.seq2seq_upgrade import linear_functions_enhanced as lfe
+# from Seq2Seq_Upgrade_TensorFlow.seq2seq_upgrade import unitary_linear
+
 from tensorflow.models.rnn import linear
-
-
-from Seq2Seq_Upgrade_TensorFlow.seq2seq_upgrade import linear_functions_enhanced as lfe
-from Seq2Seq_Upgrade_TensorFlow.seq2seq_upgrade import unitary_linear
-
 
 # import unitary_rnn_library as url
 
